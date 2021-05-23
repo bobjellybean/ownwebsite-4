@@ -1,0 +1,88 @@
+h1 {
+    color : white;
+}
+
+/* * {
+    border:solid;
+} */
+
+h1 {
+    color: azure;
+    padding-left: 15px;
+    margin-left: 30px;
+}
+h2 {
+    color: chocolate;
+    padding-left: 5px;
+}
+.header {
+    background-color:teal;
+    display:flex;
+    justify-content: space-between;
+}
+
+.side-description {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content:space-evenly;
+}
+.oragami{
+    border-radius: 20px;
+    background-color: chocolate;
+    padding: 30px;
+    margin-block-end: 25px;
+    width:310px;
+    font-family: fantasy;
+}
+body{
+    margin: 0px;
+    background-color: rgb(197, 27, 27);
+}
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: currentColor;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+a:link {
+    color: darksalmon;
+}
+a:visited{
+    color: dodgerblue;
+}
+.item {
+    position:relative;
+}
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p {
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 1;
+}
